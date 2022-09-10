@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Raimunda Trindade</title>
     <link rel="shortcut icon" href="img/foto_perfil.jpg">
-</ head>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
 
 <body>
-    <header>
+    <header class="header-menu">
         <nav>
-            <ul>
+            <ul class="lista-menu">
                 <li>
                     <a href="#formacao">Formação</a>
                 </li>
@@ -27,38 +29,45 @@
     </header>
 
     <main>
-        <section>
+        <section class="principal">
+            <div class="subcontainer-principal container">
             <div>
-                <img src="img/foto_perfil.jpg">
+                 <img src="img/foto_perfil.jpg">
+            </div>
+            <div>
+                <h1 class="nome-completo"> Raimunda Trindade</h1>
+                <h2 class="profissao"> Estudante de Tecnologia</h2>
             </div>
 
-            <div>
-                <h1> Raimunda Trindade</h1>
-                <h2> Estudante de Tecnologia</h2>
-            </div>
-
-            <div>
-                <p>
+            <div class="texto-sobre">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. In hac habitasse platea dictumst. Nulla facilisi. Nulla id luctus tortor, id hendrerit
                     metus. Donec vulputate tellus sed sollicitudin porta. Aliquam turpis leo, pellentesque et velit a, sagitt 
-            
-                </p>
-            </div>
+             </div>
+             </div>
         </section>
 
-        <section id="formação">
-            <div>
-                Formação
-            </div>
-            <div>
+        <section>
+            <div class="container  article-lista">
+                <div>
+                    <h3 class="topico-principal">Formação</h3>
+                </div>
+            <div class="lista-item">
                 <ul>
                     <li>
-                        <p> Ciclo Formativo Pretalab</p>
-                        <a href="https://www.pretalab.com/formacao" target="_blank"> Pretalab/ Olabi</a>
-                        <p>
+                        <p class="lista-titulo"> Ciclo Formativo Pretalab</p>
+                        <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local"> Pretalab/ Olabi</a>
+                        <p class="lista-descricao">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. 
                         Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
-                    
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="lista-titulo">Ensino Superior</p>
+                        <a href="https://portal.estacio.br/unidades/faculdade-est%C3%A1cio-do-par%C3%A1/" target="_blank" class="lista-local">Faculdade Estácio do Pará</a>
+                        <p class="lista-descricao">
+                            Graduação em Gestão Comercial <br>
+                            Ano de conclusão: 2018.
                         </p>
                     </li>
                 </ul>
@@ -66,11 +75,12 @@
             </div>
         </section>
         
-        <section id="projetos">
+        <section class="wrapper-meus projetos">
+            <article class="container article-lista">
             <div>
-                Meus Projetos
+                <h3 class="topico-principal"> Meus Projetos</h3>
             </div>
-            <div>
+            <div class="lista-item">
                 <ul>
                     <li>
                         <p>Calculadora</p>
@@ -101,7 +111,7 @@
             <ul>
                 <li>
                     <i class="fas fa-envelope-square"></i>
-                    <a href="mailto:trindadecarvalho25@gmail.com"> trindadecarvalho25@gmail.com</a>
+                    <a href="mailto:trindadecarvalho25@gmail.com>trindadecarvalho25@gmail.com</a>
                 </li>
 
                 <li>
